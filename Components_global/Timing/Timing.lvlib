@@ -11,4 +11,5 @@
 </Property>
 	<Item Name="Finished Late.vi" Type="VI" URL="../Finished Late.vi"/>
 	<Item Name="Freq2Time.vi" Type="VI" URL="../Freq2Time.vi"/>
+	<Item Name="Timing Action Engine.lvlib" Type="Library" URL="../Timing Action Engine/Timing Action Engine.lvlib"/>
 </Library>

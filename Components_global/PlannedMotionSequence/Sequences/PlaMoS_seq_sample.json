@@ -1,0 +1,67 @@
+[
+  {
+    "_Comment":"hold state",
+    "StepParams":{
+      "Ctrl State": "HoldState",
+      "HoldState Params":{
+        "Time [s]":2,
+      },
+    },
+  }
+  {
+    "_Comment":"ramp-up",
+    "StepParams":{
+      "Ctrl State": "PosCtrl",
+      "PosCtrl Params":{
+        "Velocity [um/s]":25,
+        "Starting Z-position [um]":-150,
+        "Ending Z-position [um]":-100,
+        "Bow Reference [um]":0
+      }
+    },
+    "Controller Gains":{
+    "Z-direction":{"Kp":1000,"Ki":50,"fLPF":500},
+    "ThX-direction":{"Kp":3000,"Ki":50,"fLPF":500},
+    "ThY-direction":{"Kp":3000,"Ki":50,"fLPF":500},
+    "Bow-direction":{"Kp":25,"Ki":0,"fLPF":0},
+    "B-d - direction":{"Kp":0,"Ki":0,"fLPF":0}
+    },
+  }
+    {
+    "_Comment":"hold state",
+    "StepParams":{
+      "Ctrl State": "HoldState",
+      "HoldState Params":{
+        "Time [s]":5,
+      },
+    },
+  }
+  {
+    "_Comment":"ramp-down",
+    "StepParams":{
+      "Ctrl State": "PosCtrl",
+      "PosCtrl Params":{
+        "Velocity [um/s]":50,
+        "Starting Z-position [um]":-100,
+        "Ending Z-position [um]":-150,
+        "Bow Reference [um]":0
+      }
+    },
+    "Controller Gains":{
+    "Z-direction":{"Kp":1000,"Ki":50,"fLPF":500},
+    "ThX-direction":{"Kp":3000,"Ki":50,"fLPF":500},
+    "ThY-direction":{"Kp":3000,"Ki":50,"fLPF":500},
+    "Bow-direction":{"Kp":25,"Ki":0,"fLPF":0},
+    "B-d - direction":{"Kp":0,"Ki":0,"fLPF":0}
+    },
+  }
+   {
+    "_Comment":"hold state",
+    "StepParams":{
+      "Ctrl State": "HoldState",
+      "HoldState Params":{
+        "Time [s]":2,
+      },
+    },
+  }
+]

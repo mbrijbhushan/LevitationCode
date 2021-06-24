@@ -12,7 +12,7 @@
 
 </Property>
 	<Item Name="private" Type="Folder">
-		<Item Name="getBow.vi" Type="VI" URL="../getBow.vi">
+		<Item Name="getZ.vi" Type="VI" URL="../getZ.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="getThX.vi" Type="VI" URL="../getThX.vi">
@@ -21,12 +21,17 @@
 		<Item Name="getThY.vi" Type="VI" URL="../getThY.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
-		<Item Name="getZ.vi" Type="VI" URL="../getZ.vi">
+		<Item Name="getBow.vi" Type="VI" URL="../getBow.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="getBow_diag.vi" Type="VI" URL="../getBow_diag.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 	</Item>
 	<Item Name="getXYThZ.vi" Type="VI" URL="../getXYThZ.vi"/>
 	<Item Name="getZThXThYbow.vi" Type="VI" URL="../getZThXThYbow.vi"/>
+	<Item Name="getZThXThYBBd.vi" Type="VI" URL="../getZThXThYBBd.vi"/>
 	<Item Name="UpdatePosArray.vi" Type="VI" URL="../UpdatePosArray.vi"/>
+	<Item Name="selectPosRefdir.vi" Type="VI" URL="../selectPosRefdir.vi"/>
 	<Item Name="MovingAvg.lvlib" Type="Library" URL="../MovingAverage/MovingAvg.lvlib"/>
 </Library>

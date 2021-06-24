@@ -1,0 +1,23 @@
+[
+  {
+    "_Comment":"test",
+    "StepParams":{
+      "Ctrl State":"PosCtrl",
+      "CtrlEff Params":{"Time [s]":0,"U_z":0},
+      "PosCtrl Params":{
+        "Velocity [um/s]":0,
+        "Starting Z-position [um]":0,
+        "Ending Z-position [um]":0,
+        "Bow Reference [um]":0
+      },
+      "HoldState Params":{"Time [s]":0}
+    },
+    "Controller Gains":{
+      "Z-direction":{"Kp":1,"Ki":0,"fLPF":0},
+      "ThX-direction":{"Kp":0,"Ki":0,"fLPF":0},
+      "ThY-direction":{"Kp":0,"Ki":0,"fLPF":0},
+      "Bow-direction":{"Kp":0,"Ki":0,"fLPF":0},
+      "B-d - direction":{"Kp":0,"Ki":0,"fLPF":0}
+    }
+  }
+]

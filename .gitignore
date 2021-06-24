@@ -15,3 +15,7 @@
 *.aliases
 *.lvlps
 .cache/
+
+# Ignore directories
+/ExportedData 
+/FPGA Bitfiles
