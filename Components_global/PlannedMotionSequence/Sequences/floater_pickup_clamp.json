@@ -12,8 +12,8 @@
     },
   "Controller Gains":{
     "Z-direction":{"Kp":1000,"Ki":50,"fLPF":500},
-    "ThX-direction":{"Kp":3000,"Ki":50,"fLPF":500},
-    "ThY-direction":{"Kp":3000,"Ki":50,"fLPF":500},
+    "ThX-direction":{"Kp":3000,"Ki":0,"fLPF":500},
+    "ThY-direction":{"Kp":3000,"Ki":0,"fLPF":500},
     "Bow-direction":{"Kp":25,"Ki":0,"fLPF":0},
     "B-d - direction":{"Kp":0,"Ki":0,"fLPF":0}
     },

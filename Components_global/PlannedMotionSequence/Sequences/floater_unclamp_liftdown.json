@@ -97,8 +97,8 @@
       "PosCtrl Params":{
         "Velocity [um/s]":75,
         "Starting Z-position [um]":-175,
-        "Ending Z-position [um]":-300,
-        "Bow Reference [um]":0
+        "Ending Z-position [um]":-250,
+        "Bow Reference [um]":-200
       }
     },
     "Controller Gains":{
