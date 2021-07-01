@@ -24,13 +24,14 @@
 		<Item Name="getBow.vi" Type="VI" URL="../getBow.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
-		<Item Name="getBow_diag.vi" Type="VI" URL="../getBow_diag.vi">
+		<Item Name="getTor.vi" Type="VI" URL="../getTor.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 	</Item>
 	<Item Name="getXYThZ.vi" Type="VI" URL="../getXYThZ.vi"/>
 	<Item Name="getZThXThYbow.vi" Type="VI" URL="../getZThXThYbow.vi"/>
 	<Item Name="getZThXThYBBd.vi" Type="VI" URL="../getZThXThYBBd.vi"/>
+	<Item Name="getZThXThYBTor.vi" Type="VI" URL="../getZThXThYBTor.vi"/>
 	<Item Name="UpdatePosArray.vi" Type="VI" URL="../UpdatePosArray.vi"/>
 	<Item Name="selectPosRefdir.vi" Type="VI" URL="../selectPosRefdir.vi"/>
 	<Item Name="MovingAvg.lvlib" Type="Library" URL="../MovingAverage/MovingAvg.lvlib"/>
