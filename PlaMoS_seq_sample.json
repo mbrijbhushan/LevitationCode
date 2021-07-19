@@ -17,7 +17,8 @@
       "ThX-direction":{"Kp":0,"Ki":0,"fLPF":0},
       "ThY-direction":{"Kp":0,"Ki":0,"fLPF":0},
       "Bow-direction":{"Kp":0,"Ki":0,"fLPF":0},
-      "B-d - direction":{"Kp":0,"Ki":0,"fLPF":0}
+      "Tor-direction":{"Kp":0,"Ki":0,"fLPF":0}
     }
   }
+]
 ]

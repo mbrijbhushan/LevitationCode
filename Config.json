@@ -7,13 +7,13 @@
     "Tor-direction":{"Kp":0,"Ki":0,"fLPF":0}
   },
   "Reference Generation":{
-    "Reference Location":"Pos Ref",
+    "Reference Location":"Ctrl Eff",
     "Direction":"Z",
     "Excitation Mode":"Sine",
-    "Amplitude":10,
+    "Amplitude":1,
     "Frequency [Hz]":1,
     "PosRef Offsets":{
-      "Z":-100,
+      "Z":-150,
       "ThX":0,
       "ThY":0,
       "Bow":0,
@@ -25,7 +25,7 @@
       "Arrow Down":false
     }
   },
-  "RT Display Reader Loop Time [us]":200,
+  "RT Display Reader Loop Time [us]":1000,
   "Sensor Gains [um/V]":{
     "G_SE":200,
     "G_NE":200,
@@ -46,26 +46,28 @@
   "Coord. Trans. Multipliers":{"Z":200,"Th":301.556734279381},
   "DSA Config Cluster":{
     "DSA excitation specs":{
-      "Initial Freq. [Hz]":9,
+      "Initial Freq. [Hz]":1,
       "Final Freq. [Hz]":100,
       "# pts. in interval":11,
       "Samping Time [us]":100,
-      "Amplitude":5.00000000000000E-4,
+      "Amplitude":0.001,
       "Offset [V]":0,
       "Freq Units (F: rad/s, T: Hz)":true
     },
     "Cycle Specs":{
-      "Cycles To \nSettle (M)":5,
-      "Cycles To \nCalculate (N)":60
+      "Cycles To \nSettle (M)":2,
+      "Cycles To \nCalculate (N)":3
     },
     "Meas. TF params":{"Direction":"Z","Tras. Func.":"RR"}
   },
   "Pos Zero Offsets [V]":{
-    "V_SE":2.41663265228271,
-    "V_NE":2.71629810333252,
-    "V_NW":3.44746780395508,
-    "V_SW":2.72613048553467,
-    "V_CI":2.80589389801025
+    "V_SE":2.96139907836914,
+    "V_NE":2.93471240997314,
+    "V_NW":3.9659481048584,
+    "V_SW":3.56573867797852,
+    "V_CI":3.35308933258057
   }
-}
+}}}01025
+  }
+}}
 }
