@@ -9,9 +9,9 @@
   "Reference Generation":{
     "Reference Location":"Ctrl Eff",
     "Direction":"Z",
-    "Excitation Mode":"Sine",
-    "Amplitude":1,
-    "Frequency [Hz]":1,
+    "Excitation Mode":"Square",
+    "Amplitude":10,
+    "Frequency [Hz]":10,
     "PosRef Offsets":{
       "Z":-150,
       "ThX":0,
@@ -55,19 +55,20 @@
       "Freq Units (F: rad/s, T: Hz)":true
     },
     "Cycle Specs":{
-      "Cycles To \nSettle (M)":2,
-      "Cycles To \nCalculate (N)":3
+      "Cycles To \nSettle (M)":1,
+      "Cycles To \nCalculate (N)":2
     },
     "Meas. TF params":{"Direction":"Z","Tras. Func.":"RR"}
   },
   "Pos Zero Offsets [V]":{
-    "V_SE":2.96139907836914,
-    "V_NE":2.93471240997314,
-    "V_NW":3.9659481048584,
-    "V_SW":3.56573867797852,
-    "V_CI":3.35308933258057
+    "V_SE":3.68384075164795,
+    "V_NE":3.68278312683105,
+    "V_NW":4.80915641784668,
+    "V_SW":4.33786678314209,
+    "V_CI":4.12166118621826
   }
-}}}01025
+}
+}25
   }
 }}
 }

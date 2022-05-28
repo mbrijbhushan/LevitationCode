@@ -3,19 +3,24 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
+	<Property Name="varPersistentID:{0550D2CF-75F8-4EED-AE78-F4AD1881B32B}" Type="Ref">/My Computer/Dependencies/PlannedMotionSequence.lvlib/Variables/CurrZref</Property>
+	<Property Name="varPersistentID:{074AC8BE-2E2B-49A6-8BAE-7B6C3754AF0C}" Type="Ref">/My Computer/Dependencies/DynamicSignalAnalyzer.lvlib/Variables/DSA Stimulus</Property>
 	<Property Name="varPersistentID:{13A60856-DAB9-4692-9BD9-93D3795101C5}" Type="Ref">/NI-cRIO-9049-PMCL/PlannedMotionSequence.lvlib/Variables/CurrZref</Property>
 	<Property Name="varPersistentID:{153C0528-9B74-4694-A862-9185320ABD45}" Type="Ref">/NI-cRIO-9049-PMCL/DynamicSignalAnalyzer.lvlib/Variables/DSA Stimulus</Property>
 	<Property Name="varPersistentID:{18AC1D9F-9C17-432E-B2BE-6375141A53E0}" Type="Ref">/NI-cRIO-9049-PMCL/PlannedMotionSequence.lvlib/Variables/CurrZpos</Property>
 	<Property Name="varPersistentID:{210E9488-4036-4581-8266-2A48E0DBA197}" Type="Ref">/NI-cRIO-9049-PMCL/variables.lvlib/Stop</Property>
+	<Property Name="varPersistentID:{3702169A-9C22-47E8-A7E2-996F88267EE8}" Type="Ref">/My Computer/Dependencies/DynamicSignalAnalyzer.lvlib/Variables/TF In</Property>
+	<Property Name="varPersistentID:{3E3EC971-F000-48FF-BA70-BCC9C3062952}" Type="Ref">/My Computer/Dependencies/PlannedMotionSequence.lvlib/Variables/CurrZpos</Property>
 	<Property Name="varPersistentID:{5EE5BA3C-2679-4BC0-9F5D-102F34463CF5}" Type="Ref">/NI-cRIO-9049-PMCL/DynamicSignalAnalyzer.lvlib/Variables/TF In</Property>
 	<Property Name="varPersistentID:{6C5DBB0A-A396-47CA-A46F-A6E4D8AE07D0}" Type="Ref">/NI-cRIO-9049-PMCL/FPGAcontrolIO.lvlib/FPGA_CtrlLoopTime [s]</Property>
-	<Property Name="varPersistentID:{9D113F9F-042F-42AD-84A1-7C9F65B15D6F}" Type="Ref">/My Computer/Dependencies/FPGAcontrolIO.lvlib/FPGA_CtrlLoopTime [s]</Property>
-	<Property Name="varPersistentID:{A9C54D00-9962-4B81-B2B1-BB3247194F33}" Type="Ref">/My Computer/Dependencies/DynamicSignalAnalyzer.lvlib/Variables/DSA Stimulus</Property>
-	<Property Name="varPersistentID:{B227D269-ACEE-4F23-A0D5-14B4FEA3D77A}" Type="Ref">/My Computer/Dependencies/DynamicSignalAnalyzer.lvlib/Variables/TF Out</Property>
-	<Property Name="varPersistentID:{B9660222-60BA-48AB-9F9E-32BF7F291A48}" Type="Ref">/My Computer/Dependencies/PlannedMotionSequence.lvlib/Variables/CurrZref</Property>
-	<Property Name="varPersistentID:{DF426806-10CA-48F8-B756-AB2C200040A1}" Type="Ref">/My Computer/Dependencies/PlannedMotionSequence.lvlib/Variables/CurrZpos</Property>
+	<Property Name="varPersistentID:{A9C54D00-9962-4B81-B2B1-BB3247194F33}" Type="Ref"></Property>
+	<Property Name="varPersistentID:{B227D269-ACEE-4F23-A0D5-14B4FEA3D77A}" Type="Ref"></Property>
+	<Property Name="varPersistentID:{B9660222-60BA-48AB-9F9E-32BF7F291A48}" Type="Ref"></Property>
+	<Property Name="varPersistentID:{DF426806-10CA-48F8-B756-AB2C200040A1}" Type="Ref"></Property>
+	<Property Name="varPersistentID:{EA4C9D03-F042-45AD-B23D-CD61F7AAD715}" Type="Ref">/My Computer/Dependencies/DynamicSignalAnalyzer.lvlib/Variables/TF Out</Property>
 	<Property Name="varPersistentID:{F7923310-9D71-44D1-B9B8-3C5EF409E1C0}" Type="Ref">/My Computer/Utility Libraries/Variables.lvlib/Stop</Property>
-	<Property Name="varPersistentID:{F7AAFBBF-3F8B-4F1F-BBBB-DA78D9CDB8C1}" Type="Ref">/My Computer/Dependencies/DynamicSignalAnalyzer.lvlib/Variables/TF In</Property>
+	<Property Name="varPersistentID:{F7AAFBBF-3F8B-4F1F-BBBB-DA78D9CDB8C1}" Type="Ref"></Property>
+	<Property Name="varPersistentID:{FAF4972E-732E-4EB8-9E6B-0C745D86820D}" Type="Ref">/My Computer/Dependencies/FPGAcontrolIO.lvlib/FPGA_CtrlLoopTime [s]</Property>
 	<Property Name="varPersistentID:{FC503A27-FBD8-44CF-AB31-A3CC28DD0A68}" Type="Ref">/NI-cRIO-9049-PMCL/DynamicSignalAnalyzer.lvlib/Variables/TF Out</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
